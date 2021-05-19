@@ -5,10 +5,7 @@
   "repository": "git@github.com:dbasilio/renovate-bug-repro.git",
   "author": "Daniel Basilio <daniel.basilio@tophat.com>",
   "license": "MIT",
-  "scripts":{
-      "test": "node ./src/index.js"
-  },
-  "dependencies": {
-    "@private-registry/my-private-package": "*"
+  "scripts": {
+    "test": "node ./src/index.js"
   }
 }
