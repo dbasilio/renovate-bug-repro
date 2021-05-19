@@ -15,3 +15,4 @@ Note: You will need a private registry in order to test this out. Our specific u
 5. Enter your user's `username:password` into the [yarnrc.yml](./yarnrc.yml) in `npmAuthIdent`. Base64 encode the whole string.
 6. Replace the package reference in src/index.js with any function from your private repository
 7. Run `yarn test` and if the import works successfully, you should see a console log. If it fails to import it will throw an error
+8. If you are going to run this through renovate, remove the `npmRegistries` from [yarnrc.yml](./yarnrc.yml) as this would appear in a global `yarnrc.yml` in the users home directory. The host rules in `renovate.json` should be able to replace this functionality.
