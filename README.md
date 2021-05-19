@@ -1,4 +1,4 @@
-## How to Use This Repo
+## Purpose
 
 This repo is a minimal repro for this issue https://github.com/renovatebot/renovate/issues/9985
 
@@ -14,5 +14,11 @@ Note: You will need a private registry in order to test this out. Our specific u
     - Make sure to take your encrypted password and submit it to https://app.renovatebot.com/encrypt
 5. Enter your user's `username:password` into the [yarnrc.yml](./yarnrc.yml) in `npmAuthIdent`. Base64 encode the whole string.
 6. Replace the package reference in src/index.js with any function from your private repository
-7. Run `yarn test` and if the import works successfully, you should see a console log. If it fails to import it will throw an error
-8. If you are going to run this through renovate, remove the `npmRegistries` from [yarnrc.yml](./yarnrc.yml) as this would appear in a global `yarnrc.yml` in the users home directory. The host rules in `renovate.json` should be able to replace this functionality.
+
+### Running Locally
+Run `yarn test` and if the import works successfully, you should see a console log. If it fails to import it will throw an error.
+
+To better match our local dev experience, move the `npmRegistries` from [yarnrc.yml](./yarnrc.yml) to a `yarnrc.yml` file in your home directory.
+
+### Running Via Renovate
+Remove the `npmRegistries` from [yarnrc.yml](./yarnrc.yml). The host rules in `renovate.json` should be able to replace this functionality.
