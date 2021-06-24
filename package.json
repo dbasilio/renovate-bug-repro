@@ -1,11 +1,14 @@
 {
-  "name": "renovate-bug-repro",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "repository": "git@github.com:dbasilio/renovate-bug-repro.git",
-  "author": "Daniel Basilio <daniel.basilio@tophat.com>",
-  "license": "MIT",
-  "scripts": {
-    "test": "node ./src/index.js"
-  }
+    "name": "renovate-bug-repro",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "repository": "git@github.com:dbasilio/renovate-bug-repro.git",
+    "author": "Daniel Basilio <daniel.basilio@tophat.com>",
+    "license": "MIT",
+    "scripts": {
+        "run-tool": "node ./src/index.js"
+    },
+    "devDependencies": {
+        "monodeploy": "^1.0.0"
+    }
 }

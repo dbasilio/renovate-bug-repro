@@ -1,17 +1,5 @@
 {
     "extends": [
         "config:base"
-    ],
-    "npmrc": "registry=https://myprivateregistry.jfrog.io/npm-prod/",
-    "hostRules": [
-        {
-            "hostType": "npm",
-            "baseUrl": "https://myprivateregistry.jfrog.io/npm-prod/",
-            "authType": "Basic",
-            "username": "some-user",
-            "encrypted": {
-                "password": "An-encrypted-password"
-            }
-        }
     ]
 }
