@@ -544,7 +544,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/changelog@npm:^0.4.0":
+"@monodeploy/changelog@npm:0.4.1":
   version: 0.4.1
   resolution: "@monodeploy/changelog@npm:0.4.1"
   dependencies:
@@ -578,7 +578,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/dependencies@npm:^0.2.0, @monodeploy/dependencies@npm:^0.2.6, @monodeploy/dependencies@npm:^0.2.8":
+"@monodeploy/dependencies@npm:0.2.9, @monodeploy/dependencies@npm:^0.2.6, @monodeploy/dependencies@npm:^0.2.8":
   version: 0.2.9
   resolution: "@monodeploy/dependencies@npm:0.2.9"
   peerDependencies:
@@ -589,7 +589,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/git@npm:^0.1.0, @monodeploy/git@npm:^0.1.8":
+"@monodeploy/git@npm:0.1.8, @monodeploy/git@npm:^0.1.8":
   version: 0.1.8
   resolution: "@monodeploy/git@npm:0.1.8"
   dependencies:
@@ -610,7 +610,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/io@npm:^0.2.0, @monodeploy/io@npm:^0.2.10, @monodeploy/io@npm:^0.2.7":
+"@monodeploy/io@npm:0.2.12, @monodeploy/io@npm:^0.2.10, @monodeploy/io@npm:^0.2.7":
   version: 0.2.12
   resolution: "@monodeploy/io@npm:0.2.12"
   peerDependencies:
@@ -622,7 +622,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/logging@npm:^0.1.0, @monodeploy/logging@npm:^0.1.4, @monodeploy/logging@npm:^0.1.5":
+"@monodeploy/logging@npm:0.1.6, @monodeploy/logging@npm:^0.1.4, @monodeploy/logging@npm:^0.1.5":
   version: 0.1.6
   resolution: "@monodeploy/logging@npm:0.1.6"
   peerDependencies:
@@ -631,7 +631,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/node@npm:^0.8.0":
+"@monodeploy/node@npm:0.8.6":
   version: 0.8.6
   resolution: "@monodeploy/node@npm:0.8.6"
   dependencies:
@@ -652,7 +652,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/publish@npm:^0.3.0":
+"@monodeploy/publish@npm:0.3.0":
   version: 0.3.0
   resolution: "@monodeploy/publish@npm:0.3.0"
   dependencies:
@@ -691,22 +691,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/types@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@monodeploy/types@npm:0.4.0"
-  dependencies:
-    "@yarnpkg/core": ^3.0.0-rc.2
-  checksum: 109b8ade9e1ea7f46d49c8a53a8640c962aacd59757170bfa6347c11f92adeb27188a53d90e7dd44c3237a32695e2e6cd459509273f857f32166c8e9fc83da15
-  languageName: node
-  linkType: hard
-
-"@monodeploy/types@npm:^0.5.0":
+"@monodeploy/types@npm:0.5.0":
   version: 0.5.0
   resolution: "@monodeploy/types@npm:0.5.0"
   dependencies:
     "@yarnpkg/core": ^3.0.0-rc.2
     tapable: ^2.2.0
   checksum: 0b43bbde4a0beefc7096a7b0e40fbfc6a535b136776e2b212eaa632d490bbf9662738f6bec2a23ef9deba92f4e506d5702ba2f94099395427c702ff8fe8d1ed3
+  languageName: node
+  linkType: hard
+
+"@monodeploy/types@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@monodeploy/types@npm:0.4.0"
+  dependencies:
+    "@yarnpkg/core": ^3.0.0-rc.2
+  checksum: 109b8ade9e1ea7f46d49c8a53a8640c962aacd59757170bfa6347c11f92adeb27188a53d90e7dd44c3237a32695e2e6cd459509273f857f32166c8e9fc83da15
   languageName: node
   linkType: hard
 
@@ -721,7 +721,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monodeploy/versions@npm:^0.4.0, @monodeploy/versions@npm:^0.4.6":
+"@monodeploy/versions@npm:0.4.6, @monodeploy/versions@npm:^0.4.6":
   version: 0.4.6
   resolution: "@monodeploy/versions@npm:0.4.6"
   dependencies:
@@ -1068,7 +1068,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/cli@npm:^3.0.0-rc.2, @yarnpkg/cli@npm:^3.0.0-rc.5, @yarnpkg/cli@npm:^3.0.0-rc.6":
+"@yarnpkg/cli@npm:3.0.0-rc.6, @yarnpkg/cli@npm:^3.0.0-rc.2, @yarnpkg/cli@npm:^3.0.0-rc.5":
   version: 3.0.0-rc.6
   resolution: "@yarnpkg/cli@npm:3.0.0-rc.6"
   dependencies:
@@ -1105,7 +1105,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:^3.0.0-rc.2, @yarnpkg/core@npm:^3.0.0-rc.5, @yarnpkg/core@npm:^3.0.0-rc.6":
+"@yarnpkg/core@npm:3.0.0-rc.6, @yarnpkg/core@npm:^3.0.0-rc.2, @yarnpkg/core@npm:^3.0.0-rc.5, @yarnpkg/core@npm:^3.0.0-rc.6":
   version: 3.0.0-rc.6
   resolution: "@yarnpkg/core@npm:3.0.0-rc.6"
   dependencies:
@@ -1145,7 +1145,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^2.5.0-rc.2, @yarnpkg/fslib@npm:^2.5.0-rc.5, @yarnpkg/fslib@npm:^2.5.0-rc.6":
+"@yarnpkg/fslib@npm:2.5.0-rc.6, @yarnpkg/fslib@npm:^2.5.0-rc.2, @yarnpkg/fslib@npm:^2.5.0-rc.5, @yarnpkg/fslib@npm:^2.5.0-rc.6":
   version: 2.5.0-rc.6
   resolution: "@yarnpkg/fslib@npm:2.5.0-rc.6"
   dependencies:
@@ -1351,7 +1351,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/plugin-npm@npm:^2.5.0-rc.2, @yarnpkg/plugin-npm@npm:^2.5.0-rc.5, @yarnpkg/plugin-npm@npm:^2.5.0-rc.6":
+"@yarnpkg/plugin-npm@npm:2.5.0-rc.6, @yarnpkg/plugin-npm@npm:^2.5.0-rc.2, @yarnpkg/plugin-npm@npm:^2.5.0-rc.5, @yarnpkg/plugin-npm@npm:^2.5.0-rc.6":
   version: 2.5.0-rc.6
   resolution: "@yarnpkg/plugin-npm@npm:2.5.0-rc.6"
   dependencies:
@@ -1367,7 +1367,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/plugin-pack@npm:^3.0.0-rc.2, @yarnpkg/plugin-pack@npm:^3.0.0-rc.5, @yarnpkg/plugin-pack@npm:^3.0.0-rc.6":
+"@yarnpkg/plugin-pack@npm:3.0.0-rc.6, @yarnpkg/plugin-pack@npm:^3.0.0-rc.2, @yarnpkg/plugin-pack@npm:^3.0.0-rc.5, @yarnpkg/plugin-pack@npm:^3.0.0-rc.6":
   version: 3.0.0-rc.6
   resolution: "@yarnpkg/plugin-pack@npm:3.0.0-rc.6"
   dependencies:
@@ -5002,7 +5002,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"monodeploy@npm:^1.0.0":
+"monodeploy@npm:1.0.0":
   version: 1.0.0
   resolution: "monodeploy@npm:1.0.0"
   dependencies:
@@ -6201,21 +6201,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-bug-repro@workspace:."
   dependencies:
-    "@monodeploy/changelog": ^0.4.0
-    "@monodeploy/dependencies": ^0.2.0
-    "@monodeploy/git": ^0.1.0
-    "@monodeploy/io": ^0.2.0
-    "@monodeploy/logging": ^0.1.0
-    "@monodeploy/node": ^0.8.0
-    "@monodeploy/publish": ^0.3.0
-    "@monodeploy/types": ^0.5.0
-    "@monodeploy/versions": ^0.4.0
-    "@yarnpkg/cli": ^3.0.0-rc.6
-    "@yarnpkg/core": ^3.0.0-rc.6
-    "@yarnpkg/fslib": ^2.5.0-rc.6
-    "@yarnpkg/plugin-npm": ^2.5.0-rc.6
-    "@yarnpkg/plugin-pack": ^3.0.0-rc.6
-    monodeploy: ^1.0.0
+    "@monodeploy/changelog": 0.4.1
+    "@monodeploy/dependencies": 0.2.9
+    "@monodeploy/git": 0.1.8
+    "@monodeploy/io": 0.2.12
+    "@monodeploy/logging": 0.1.6
+    "@monodeploy/node": 0.8.6
+    "@monodeploy/publish": 0.3.0
+    "@monodeploy/types": 0.5.0
+    "@monodeploy/versions": 0.4.6
+    "@yarnpkg/cli": 3.0.0-rc.6
+    "@yarnpkg/core": 3.0.0-rc.6
+    "@yarnpkg/fslib": 2.5.0-rc.6
+    "@yarnpkg/plugin-npm": 2.5.0-rc.6
+    "@yarnpkg/plugin-pack": 3.0.0-rc.6
+    monodeploy: 1.0.0
   languageName: unknown
   linkType: soft
 
