@@ -12,7 +12,7 @@
         "@monodeploy/changelog": "^0.4.0",
         "@monodeploy/dependencies": "^0.2.0",
         "@monodeploy/git": "^0.1.0",
-        "@monodeploy/io": "^0.2.0",
+        "@monodeploy/io": "^0.4.1",
         "@monodeploy/logging": "^0.1.0",
         "@monodeploy/node": "^0.8.0",
         "@monodeploy/publish": "^0.3.0",
