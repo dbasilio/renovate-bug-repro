@@ -23,6 +23,6 @@
         "@yarnpkg/fslib": "^2.5.0-rc.6",
         "@yarnpkg/plugin-npm": "^2.5.0-rc.6",
         "@yarnpkg/plugin-pack": "^3.0.0-rc.6",
-        "monodeploy": "^1.0.0"
+        "monodeploy": "^2.8.20"
     }
 }
