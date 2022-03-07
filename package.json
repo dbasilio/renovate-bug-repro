@@ -16,7 +16,7 @@
         "@monodeploy/logging": "^0.1.0",
         "@monodeploy/node": "^0.8.0",
         "@monodeploy/publish": "^0.3.0",
-        "@monodeploy/types": "^0.5.0",
+        "@monodeploy/types": "^0.10.5",
         "@monodeploy/versions": "^0.4.0",
         "@yarnpkg/cli": "^3.0.0-rc.6",
         "@yarnpkg/core": "^3.0.0-rc.6",
