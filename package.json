@@ -10,7 +10,7 @@
     },
     "devDependencies": {
         "@monodeploy/changelog": "^0.4.0",
-        "@monodeploy/dependencies": "^0.2.0",
+        "@monodeploy/dependencies": "^0.3.12",
         "@monodeploy/git": "^0.1.0",
         "@monodeploy/io": "^0.2.0",
         "@monodeploy/logging": "^0.1.0",
