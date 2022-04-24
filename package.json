@@ -14,7 +14,7 @@
         "@monodeploy/git": "^0.1.0",
         "@monodeploy/io": "^0.2.0",
         "@monodeploy/logging": "^0.1.0",
-        "@monodeploy/node": "^0.8.0",
+        "@monodeploy/node": "^0.12.2",
         "@monodeploy/publish": "^0.3.0",
         "@monodeploy/types": "^0.5.0",
         "@monodeploy/versions": "^0.4.0",
