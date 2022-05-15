@@ -18,7 +18,7 @@
         "@monodeploy/publish": "^0.3.0",
         "@monodeploy/types": "^0.5.0",
         "@monodeploy/versions": "^0.4.0",
-        "@yarnpkg/cli": "^3.0.0-rc.6",
+        "@yarnpkg/cli": "^3.2.1",
         "@yarnpkg/core": "^3.0.0-rc.6",
         "@yarnpkg/fslib": "^2.5.0-rc.6",
         "@yarnpkg/plugin-npm": "^2.5.0-rc.6",
