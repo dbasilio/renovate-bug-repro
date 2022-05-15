@@ -20,7 +20,7 @@
         "@monodeploy/versions": "^0.4.0",
         "@yarnpkg/cli": "^3.0.0-rc.6",
         "@yarnpkg/core": "^3.0.0-rc.6",
-        "@yarnpkg/fslib": "^2.5.0-rc.6",
+        "@yarnpkg/fslib": "^2.6.2",
         "@yarnpkg/plugin-npm": "^2.5.0-rc.6",
         "@yarnpkg/plugin-pack": "^3.0.0-rc.6",
         "monodeploy": "^1.0.0"
